@@ -21,7 +21,7 @@
 #include <stdio.h>
 
 #define STBI_HEADER_FILE_ONLY
-#include "stb_image.c"
+#include <stb_image.h>
 
 astc_codec_image * load_image_with_stb(const char *filename, int padding, int *result)
 {
